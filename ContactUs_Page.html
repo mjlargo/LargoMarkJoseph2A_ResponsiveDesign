@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=[device-width], initial-scale=1.0" />
+  <title>Contact Us</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <script
+    defer
+    src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+  ></script>
+</head>
+
+<body>
+    <!------ HEADER ------->
+
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="nav-icons fa fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="Page1.html">MOTORCYCLES</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="index.html#footer">ABOUT</a></li> 
+          </ul>
+        </div>
+        <i class="nav-icons fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="contact-section">
+        <h1>Contact Us</h1>
+        <div class="border"></div>
+        <form class="contact-form" action="index.html">
+          <input type="text" class="contact-form-text" placeholder="Your name">
+          <input type="email" class="contact-form-text" placeholder="Your email">
+          <input type="text" class="contact-form-text" placeholder="Your phone">
+          <textarea class="contact-form-text" placeholder="Your message"></textarea>
+          <input type="submit" class="contact-form-btn" value="Send">
+        </form>
+      </div>
+    </section>
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
